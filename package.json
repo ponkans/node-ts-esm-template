@@ -1,0 +1,24 @@
+{
+  "name": "star-cli",
+  "version": "1.0.0",
+  "description": "Node CLI Template",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-esm src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "star": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
+}
